@@ -50,3 +50,5 @@ git add .
 git commit –m “clone file”  
 git commit -a -m “Update README” // 做一些 README.md 檔案修改，然後 commit  
 git push origin main  
+
+Markdown（.md）檔案通常使用類似於普通文本檔案的方式來處理換行 1.使用兩個以上的空格加上換行符 2.使用空行
