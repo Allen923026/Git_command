@@ -5,7 +5,8 @@ ls  // 查看當前目錄的所有檔案
 
 Git 基本設定  
 git --version  //查看版本  
-git config <key>  //查詢 git 設定內容 <key> ex. user.name 、 user.email  
+git config <key>  //查詢 git 設定內容 <key> ex. user.name 、 user.email
+git config --global <key>  ex. user.name 、 user.email
 
 Git 資料夾設定
 git init  // 將專案資料夾建立成 git repository  
@@ -34,6 +35,8 @@ git branch –d <branch_name> // 刪除分支
 
 遠端連結
 git remote add origin <remote 網址>  // 將本地端專案連結到對應遠端網址  
+git remote remove // 將遠端網址刪除
+git remote rename // 將遠端網址改名
 將本地端程式 push 到遠端檔案庫  
 git branch -m main  // 更改分支名稱  
 git push -u origin main  // 將本地端程式 push 到遠端檔案庫  
