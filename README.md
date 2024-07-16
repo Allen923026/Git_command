@@ -40,6 +40,7 @@ git remote rename // 將遠端網址改名
 將本地端程式 push 到遠端檔案庫  
 git branch -m main  // 更改分支名稱  
 git push -u origin main  // 將本地端程式 push 到遠端檔案庫  
+git pull // 檔案同步
 
 錯誤處理
 git pull origin main --allow-unrelated-histories  //拉取遠端更改 (本地分支落後於遠端分支)  
