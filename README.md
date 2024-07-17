@@ -22,6 +22,7 @@ git diff //查看發生變動的地方
 git commit -a -m “change addition to minus “  //修改簡寫 （-a 是 add，-m 為 message 簡寫，後面接訊息資訊） 省略 git add + git commit -m  
 git mv code.py minus.py  //移動檔案(也可以改檔名)  
 git log  //查看 commit 紀錄 *細看 commit 紀錄 git log -p  
+git checkout <還原點> -- <檔案> //還原節點
 
 Branch(分支)
 git branch  // 查看所有分支  
